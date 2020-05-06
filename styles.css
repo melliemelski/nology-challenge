@@ -1,0 +1,214 @@
+body {
+    font-family: Myriad-pro;
+    padding:0px;
+    margin: 0;
+    white-space: nowrap;
+}
+
+nav  {
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #296B80;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+nav ul {
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 0;
+}
+nav li {
+    display: inline-block;
+    color: #ffffff;
+    width: 20%; 
+    font-size: 20px; 
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+h2 {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.banner img {
+    display: block;
+    margin-left:  auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    white-space: nowrap;
+    padding: 0;
+}
+
+
+.cycling h2 {
+    background-color: #ff9891;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    color: grey
+}
+.cycling img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.velodrome {
+  display: block;
+}
+
+.velodrome img {
+    display: block;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    padding: 10px;
+}
+
+
+
+.gallery {
+    display: block;
+    margin: 25px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20%;
+    text-align: center;
+    overflow: hide;
+}
+  
+.gallery:hover {
+    border: 1px solid #777;
+}
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.coffee {
+    display: block;
+    margin-top: 280px;
+}
+
+.coffee h2 {
+    background-color: #52D7FF;
+}
+
+.coffee img {
+    display: block;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+
+}
+.cake {
+   display: inline-block;
+   text-align: center;
+}
+
+.cake img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.television {
+    display: block;
+}
+
+.television h2 {
+    background-color: #52D7FF;
+}
+
+.television img {
+    display: block;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+.beryl img {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.beryl h2 {
+    background-color: #296b80;
+}
+
+.travel h2 {
+    background-color: #41ACCC;
+}
+
+#van {
+    display: block;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+.location2 {
+    display: inline;
+    margin-left: 30%;
+    
+}
+
+.location2 img {
+    width: 40%;
+   
+}
+
+#lake {
+    margin-left: 30%;
+}
+
+
+form {
+    display: block;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form h3 {
+    font-size: 28px;
+    color: grey;
+    text-align: center;
+}
+form label {
+    font-size: 28px;
+    color: grey;
+    text-align: left;
+}
