@@ -1,5 +1,5 @@
 body {
-    font-family: Verdana;
+    font-family: Verdana, sans-serif;
     padding:0px;
     margin: 0;
     white-space: nowrap;
@@ -86,13 +86,12 @@ p {
 
 
 .gallery {
-    display: block;
+    display: inline-block;
     margin: 25px;
     border: 1px solid #ccc;
-    float: left;
     width: 20%;
     text-align: center;
-    overflow: hide;
+    
 }
   
 .gallery:hover {
@@ -201,7 +200,7 @@ form {
     margin-right: auto;
 }
 
-form h3 {
+h3 {
     font-size: 28px;
     color: grey;
     text-align: center;
@@ -221,4 +220,25 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+.fortune {
+    text-align: center;
+    position: relative;
+}
+
+.fortune img {
+    width: 40%;
+}
+#fortunetext:empty {
+    display: none;
+}
+#fortunetext:not(:empty) {
+    color: #777;
+    position: absolute;
+    bottom: 50px;
+    left: 400px;
+    background-color: white;
+    padding: 10px 5px 10px 5px;
+    text-align: center;
 }

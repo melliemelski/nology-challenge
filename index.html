@@ -3,7 +3,7 @@
 <head>
     <title>Mel</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="javasrcipt" type="javasrcipt" href="java.js">
+    <script src="java.js"></script>
 </head>
 <body>
     <nav>
@@ -60,13 +60,9 @@
                 </a>
                 <div class="desc">Zwift virtual riding</div>
         </div>
-        <br>
-        <div class="blank"></div>
         
-  
-     
-
-        <div class="coffee">
+        
+         <div class="coffee">
             <h2 id="cof">Coffee</h2>
             <img src="images/coffee/sanfran.jpeg" alt="photo of coffee and helmet">
             <p>Cycling - I'm mostly in it for the cake!</p>
@@ -127,17 +123,30 @@
                 <label for="latte">Latte</label><br>
                 <input type="radio" id="cappuccino" name="drink" value="cappuccino">
                 <label for="cappuccino">Cappuccino</label><br>
-                <input type="radio" id="flat_white" name="drink" value="flat_white">
+                <input type="radio" id="flat_white" name="drink" value="flat white">
                 <label for="flat_white">Flat white</label><br>
                 <input type="radio" id="americano" name="drink" value="americano">
                 <label for="americano">Americano</label><br>
                 <input type="radio" id="espresso" name="drink" value="espresso">
                 <label for="espresso">Espresso</label><br>
-                <input type="radio" id="none" name="drink" value="none">
+                <input type="radio" id="none" name="drink" value="not for me">
                 <label for="none">Not into coffee</label><br><br>
-                <button>Submit</button>
+                <button onclick="vote();">Submit</button>
             </form>
+            <p id="result"></p>
         </div>
+        <br>
+        <br>
+
+        <div class="fortune">
+            <h3>Click the cookie for some wisdom</h3>
+            <img src="images/cookie/cookie1.jpg" alt="fortune cookie unopened" id="cookie" role="button" onclick="changeCookie(); fortune();">
+            <div class="textblock">
+                <p id="fortunetext"></p>
+            </div>
+        </div>
+        <br>
+        <br>
 
     
 
