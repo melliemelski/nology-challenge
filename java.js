@@ -14,13 +14,13 @@ function myFunction(imgs) {
 
     
 
-    function vote(){
+    function vote() {
     let radios = document.getElementsByName("drink");
     let choice = document.getElementById("result");
     for (let i = 0, length = radios.length; i < length; i++) {
     if (radios[i].checked) {
-        //alert(radios[i].value);
-        choice.innerText = "Your choice is " + (radios[i].checked);
+        alert(radios[i].value);
+        //choice.innerText = "Your choice is " ;
       break;
         }
       }
